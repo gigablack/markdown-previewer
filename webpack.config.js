@@ -38,7 +38,8 @@ module.exports = {
             inject: false,
             title: 'My App',
             template: require('html-webpack-template'),
-            appMountId: 'root'
+            appMountId: 'root',
+            scripts: ['https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js']
         })
     ],
     devtool: 'inline-source-map'
