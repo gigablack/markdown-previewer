@@ -36,7 +36,7 @@ module.exports = {
         new cleanWebpackPlugin(['dist']),
         new htmlWebpackPlugin({
             inject: false,
-            title: 'My App',
+            title: 'Markdown Previewer',
             template: require('html-webpack-template'),
             appMountId: 'root',
             scripts: ['https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js']
